@@ -38,6 +38,18 @@ const routes: Routes = [
   {
     path: 'card',
     loadChildren: () => import('./pages/card/card.module').then( m => m.CardPageModule)
+  },
+  {
+    path: 'checkbox',
+    loadChildren: () => import('./pages/checkbox/checkbox.module').then( m => m.CheckboxPageModule)
+  },
+  {
+    path: 'chip',
+    loadChildren: () => import('./pages/chip/chip.module').then( m => m.ChipPageModule)
+  },
+  {
+    path: 'content',
+    loadChildren: () => import('./pages/content/content.module').then( m => m.ContentPageModule)
   }
 ];
 
