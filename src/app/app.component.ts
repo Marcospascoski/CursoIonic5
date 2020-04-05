@@ -91,6 +91,11 @@ export class AppComponent implements OnInit {
       title: 'Progress Bar',
       url: 'progressbar',
       icon: 'construct'
+    },
+    {
+      title: 'Segment',
+      url: 'segment',
+      icon: 'construct'
     }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];

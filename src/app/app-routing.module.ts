@@ -77,6 +77,10 @@ const routes: Routes = [
   {
     path: 'progressbar',
     loadChildren: () => import('./pages/progressbar/progressbar.module').then( m => m.ProgressbarPageModule)
+  },
+  {
+    path: 'segment',
+    loadChildren: () => import('./pages/segment/segment.module').then( m => m.SegmentPageModule)
   }
 
 ];

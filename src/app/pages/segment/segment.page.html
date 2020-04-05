@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Segment</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-segment [(ngModel)]='opcaoSelecionada' (ionChange)="segmentChanged($event)">
+    <ion-segment-button value="frutas">
+      <ion-label>Frutas</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="cores">
+      <ion-label>Cores</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <div [(ngSwitch)]='opcaoSelecionada'>
+    <ion-list *ngSwitchCase="'frutas'">
+      <ion-item>Maça</ion-item>
+      <ion-item>Uva</ion-item>
+      <ion-item>Banana</ion-item>
+      <ion-item>Abacate</ion-item>
+      <ion-item lines="none">
+        <ion-button (click)="proximaAba()">Próximo</ion-button>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div [(ngSwitch)]='opcaoSelecionada'>
+    <ion-list *ngSwitchCase="'cores'">
+      <ion-item>Azul</ion-item>
+      <ion-item>Verde</ion-item>
+      <ion-item>Amarelo</ion-item>
+      <ion-item>Roxo</ion-item>
+      <ion-item lines="none">
+        <ion-button (click)="anteriorAba()">Anterior</ion-button>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div class="ion-padding">
+    <span><b>Navegar com abas ion-segment-button</b></span>
+  </div>
+</ion-content>
