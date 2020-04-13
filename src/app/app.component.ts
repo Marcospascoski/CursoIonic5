@@ -106,6 +106,11 @@ export class AppComponent implements OnInit {
       title: 'Segment',
       url: 'segment',
       icon: 'construct'
+    },
+    {
+      title: 'Animacao',
+      url: 'animacao',
+      icon: 'construct'
     }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];

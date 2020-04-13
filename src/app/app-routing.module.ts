@@ -89,6 +89,10 @@ const routes: Routes = [
   {
     path: 'reorder',
     loadChildren: () => import('./pages/reorder/reorder.module').then( m => m.ReorderPageModule)
+  },
+  {
+    path: 'animacao',
+    loadChildren: () => import('./pages/animacao/animacao.module').then( m => m.AnimacaoPageModule)
   }
 
 ];
