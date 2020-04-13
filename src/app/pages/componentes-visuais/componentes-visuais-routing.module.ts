@@ -11,6 +11,10 @@ const routes: Routes = [
   {
     path: 'select',
     loadChildren: () => import('./select/select.module').then( m => m.SelectPageModule)
+  },
+  {
+    path: 'toggle',
+    loadChildren: () => import('./toggle/toggle.module').then( m => m.TogglePageModule)
   }
 ];
 

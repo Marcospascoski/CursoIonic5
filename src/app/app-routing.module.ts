@@ -88,6 +88,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/componentes-visuais/select/select.module').then( m => m.SelectPageModule)
   },
   {
+    path: 'toggle',
+    loadChildren: () => import('./pages/componentes-visuais/toggle/toggle.module').then( m => m.TogglePageModule)
+  },
+  {
     path: 'refresher',
     loadChildren: () => import('./pages/componentes-visuais/refresher/refresher.module').then( m => m.RefresherPageModule)
   },
