@@ -98,6 +98,11 @@ export class AppComponent implements OnInit {
       icon: 'construct'
     },
     {
+      title: 'Reorder',
+      url: 'reorder',
+      icon: 'construct'
+    },
+    {
       title: 'Segment',
       url: 'segment',
       icon: 'construct'
