@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: ComponentesVisuaisPage
+  },
+  {
+    path: 'select',
+    loadChildren: () => import('./select/select.module').then( m => m.SelectPageModule)
   }
 ];
 

@@ -84,6 +84,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/componentes-visuais/segment/segment.module').then( m => m.SegmentPageModule)
   },
   {
+    path: 'select',
+    loadChildren: () => import('./pages/componentes-visuais/select/select.module').then( m => m.SelectPageModule)
+  },
+  {
     path: 'refresher',
     loadChildren: () => import('./pages/componentes-visuais/refresher/refresher.module').then( m => m.RefresherPageModule)
   },
