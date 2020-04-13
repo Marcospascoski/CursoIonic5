@@ -93,6 +93,11 @@ export class AppComponent implements OnInit {
       icon: 'construct'
     },
     {
+      title: 'Refresher',
+      url: 'refresher',
+      icon: 'construct'
+    },
+    {
       title: 'Segment',
       url: 'segment',
       icon: 'construct'
