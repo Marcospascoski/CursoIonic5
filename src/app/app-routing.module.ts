@@ -13,86 +13,91 @@ const routes: Routes = [
   },
   {
     path: 'navegacao',
-    loadChildren: () => import('./pages/navegacao/navegacao.module').then( m => m.NavegacaoPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/navegacao/navegacao.module').then( m => m.NavegacaoPageModule)
   },
   {
     path: 'navegacao2',
-    loadChildren: () => import('./pages/navegacao2/navegacao2.module').then( m => m.Navegacao2PageModule)
+    loadChildren: () => import('./pages/componentes-visuais/navegacao2/navegacao2.module').then( m => m.Navegacao2PageModule)
   },
   {
     path: 'botao',
-    loadChildren: () => import('./pages/botao/botao.module').then( m => m.BotaoPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/botao/botao.module').then( m => m.BotaoPageModule)
   },
   {
     path: 'alert',
-    loadChildren: () => import('./pages/alert/alert.module').then( m => m.AlertPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/alert/alert.module').then( m => m.AlertPageModule)
   },
   {
     path: 'actionsheet',
-    loadChildren: () => import('./pages/actionsheet/actionsheet.module').then( m => m.ActionsheetPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/actionsheet/actionsheet.module').then( m => m.ActionsheetPageModule)
   },
   {
     path: 'badge',
-    loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
+    loadChildren: () => import('./pages/componentes-visuais/badge/badge.module').then( m => m.BadgePageModule)
   },
   {
     path: 'card',
-    loadChildren: () => import('./pages/card/card.module').then( m => m.CardPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/card/card.module').then( m => m.CardPageModule)
   },
   {
     path: 'checkbox',
-    loadChildren: () => import('./pages/checkbox/checkbox.module').then( m => m.CheckboxPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/checkbox/checkbox.module').then( m => m.CheckboxPageModule)
   },
   {
     path: 'chip',
-    loadChildren: () => import('./pages/chip/chip.module').then( m => m.ChipPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/chip/chip.module').then( m => m.ChipPageModule)
   },
   {
     path: 'content',
-    loadChildren: () => import('./pages/content/content.module').then( m => m.ContentPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/content/content.module').then( m => m.ContentPageModule)
   },
   {
     path: 'datetime',
-    loadChildren: () => import('./pages/date-time/date-time.module').then( m => m.DateTimePageModule)
+    loadChildren: () => import('./pages/componentes-visuais/date-time/date-time.module').then( m => m.DateTimePageModule)
   },
   {
     path: 'fab',
-    loadChildren: () => import('./pages/fab/fab.module').then( m => m.FabPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/fab/fab.module').then( m => m.FabPageModule)
   },
   {
     path: 'grid',
-    loadChildren: () => import('./pages/grid/grid.module').then( m => m.GridPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/grid/grid.module').then( m => m.GridPageModule)
   },
   {
     path: 'infinitscroll',
-    loadChildren: () => import('./pages/infinitscroll/infinitscroll.module').then( m => m.InfinitscrollPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/infinitscroll/infinitscroll.module').then( m => m.InfinitscrollPageModule)
   },
   {
     path: 'input',
-    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
-  },  {
+    loadChildren: () => import('./pages/componentes-visuais/input/input.module').then( m => m.InputPageModule)
+  },
+  {
     path: 'list',
-    loadChildren: () => import('./pages/list/list.module').then( m => m.ListPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/list/list.module').then( m => m.ListPageModule)
   },
   {
     path: 'progressbar',
-    loadChildren: () => import('./pages/progressbar/progressbar.module').then( m => m.ProgressbarPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/progressbar/progressbar.module').then( m => m.ProgressbarPageModule)
   },
   {
     path: 'segment',
-    loadChildren: () => import('./pages/segment/segment.module').then( m => m.SegmentPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/segment/segment.module').then( m => m.SegmentPageModule)
   },
   {
     path: 'refresher',
-    loadChildren: () => import('./pages/refresher/refresher.module').then( m => m.RefresherPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/refresher/refresher.module').then( m => m.RefresherPageModule)
   },
   {
     path: 'reorder',
-    loadChildren: () => import('./pages/reorder/reorder.module').then( m => m.ReorderPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/reorder/reorder.module').then( m => m.ReorderPageModule)
   },
   {
     path: 'animacao',
-    loadChildren: () => import('./pages/animacao/animacao.module').then( m => m.AnimacaoPageModule)
+    loadChildren: () => import('./pages/componentes-visuais/animacao/animacao.module').then( m => m.AnimacaoPageModule)
+  },
+  {
+    path: 'componentes-visuais',
+    loadChildren: () => import('./pages/componentes-visuais/componentes-visuais.module').then( m => m.ComponentesVisuaisPageModule)
   }
 
 ];

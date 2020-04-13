@@ -13,107 +13,11 @@ export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public appPages = [
     {
-      title: 'Navegação',
-      url: 'navegacao',
-      icon: 'paper-plane'
-    },
-    {
-      title: 'Botões',
-      url: 'botao',
-      icon: 'construct'
-    },
-    {
-      title: 'Alert',
-      url: 'alert',
-      icon: 'construct'
-    },
-    {
-      title: 'Actionsheet',
-      url: 'actionsheet',
-      icon: 'construct'
-    },
-    {
-      title: 'Badge',
-      url: 'badge',
-      icon: 'construct'
-    },
-    {
-      title: 'Card',
-      url: 'card',
-      icon: 'construct'
-    },
-    {
-      title: 'Checkbox',
-      url: 'checkbox',
-      icon: 'construct'
-    },
-    {
-      title: 'Chip',
-      url: 'chip',
-      icon: 'construct'
-    },
-    {
-      title: 'Content',
-      url: 'content',
-      icon: 'construct'
-    },
-    {
-      title: 'DateTime',
-      url: 'datetime',
-      icon: 'construct'
-    },
-    {
-      title: 'Fab',
-      url: 'fab',
-      icon: 'construct'
-    },
-    {
-      title: 'Grid',
-      url: 'grid',
-      icon: 'construct'
-    },
-    {
-      title: 'InfinitScroll',
-      url: 'infinitscroll',
-      icon: 'construct'
-    },
-    {
-      title: 'Input',
-      url: 'input',
-      icon: 'construct'
-    },
-    {
-      title: 'Lista',
-      url: 'list',
-      icon: 'construct'
-    },
-    {
-      title: 'Progress Bar',
-      url: 'progressbar',
-      icon: 'construct'
-    },
-    {
-      title: 'Refresher',
-      url: 'refresher',
-      icon: 'construct'
-    },
-    {
-      title: 'Reorder',
-      url: 'reorder',
-      icon: 'construct'
-    },
-    {
-      title: 'Segment',
-      url: 'segment',
-      icon: 'construct'
-    },
-    {
-      title: 'Animacao',
-      url: 'animacao',
+      title: 'Componentes Visuais',
+      url: 'componentes-visuais',
       icon: 'construct'
     }
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
   constructor(
     private platform: Platform,
