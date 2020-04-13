@@ -15,6 +15,10 @@ const routes: Routes = [
   {
     path: 'toggle',
     loadChildren: () => import('./toggle/toggle.module').then( m => m.TogglePageModule)
+  },
+  {
+    path: 'searchbar',
+    loadChildren: () => import('./searchbar/searchbar.module').then( m => m.SearchbarPageModule)
   }
 ];
 

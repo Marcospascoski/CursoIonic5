@@ -113,6 +113,11 @@ export class ComponentesVisuaisPage implements OnInit {
         icon: 'construct'
       },
       {
+        title: 'Searchbar',
+        url: 'searchbar',
+        icon: 'construct'
+      },
+      {
         title: 'Toggle',
         url: 'toggle',
         icon: 'construct'

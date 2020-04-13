@@ -88,6 +88,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/componentes-visuais/select/select.module').then( m => m.SelectPageModule)
   },
   {
+    path: 'searchbar',
+    loadChildren: () => import('./pages/componentes-visuais/searchbar/searchbar.module').then( m => m.SearchbarPageModule)
+  },
+  {
     path: 'toggle',
     loadChildren: () => import('./pages/componentes-visuais/toggle/toggle.module').then( m => m.TogglePageModule)
   },
