@@ -98,6 +98,11 @@ export class ComponentesVisuaisPage implements OnInit {
         icon: 'construct'
       },
       {
+        title: 'Radio',
+        url: 'radio',
+        icon: 'construct'
+      },
+      {
         title: 'Reorder',
         url: 'reorder',
         icon: 'construct'

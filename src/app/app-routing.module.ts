@@ -100,6 +100,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/componentes-visuais/toast/toast.module').then( m => m.ToastPageModule)
   },
   {
+    path: 'radio',
+    loadChildren: () => import('./pages/componentes-visuais/radio/radio.module').then( m => m.RadioPageModule)
+  },
+  {
     path: 'refresher',
     loadChildren: () => import('./pages/componentes-visuais/refresher/refresher.module').then( m => m.RefresherPageModule)
   },
