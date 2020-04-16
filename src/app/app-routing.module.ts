@@ -96,6 +96,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/componentes-visuais/toggle/toggle.module').then( m => m.TogglePageModule)
   },
   {
+    path: 'toast',
+    loadChildren: () => import('./pages/componentes-visuais/toast/toast.module').then( m => m.ToastPageModule)
+  },
+  {
     path: 'refresher',
     loadChildren: () => import('./pages/componentes-visuais/refresher/refresher.module').then( m => m.RefresherPageModule)
   },

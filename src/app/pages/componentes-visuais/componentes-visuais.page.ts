@@ -123,6 +123,11 @@ export class ComponentesVisuaisPage implements OnInit {
         icon: 'construct'
       },
       {
+        title: 'Toast',
+        url: 'toast',
+        icon: 'construct'
+      },
+      {
         title: 'Animacao',
         url: 'animacao',
         icon: 'construct'

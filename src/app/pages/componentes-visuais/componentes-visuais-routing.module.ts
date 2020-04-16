@@ -19,7 +19,11 @@ const routes: Routes = [
   {
     path: 'searchbar',
     loadChildren: () => import('./searchbar/searchbar.module').then( m => m.SearchbarPageModule)
+  },  {
+    path: 'toast',
+    loadChildren: () => import('./toast/toast.module').then( m => m.ToastPageModule)
   }
+
 ];
 
 @NgModule({
