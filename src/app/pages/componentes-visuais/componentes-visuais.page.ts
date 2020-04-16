@@ -98,6 +98,11 @@ export class ComponentesVisuaisPage implements OnInit {
         icon: 'construct'
       },
       {
+        title: 'Popover',
+        url: 'popover',
+        icon: 'construct'
+      },
+      {
         title: 'Refresher',
         url: 'refresher',
         icon: 'construct'

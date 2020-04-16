@@ -84,6 +84,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/componentes-visuais/progressbar/progressbar.module').then( m => m.ProgressbarPageModule)
   },
   {
+    path: 'popover',
+    loadChildren: () => import('./pages/componentes-visuais/popover/popover.module').then( m => m.PopoverPageModule)
+  },
+  {
     path: 'segment',
     loadChildren: () => import('./pages/componentes-visuais/segment/segment.module').then( m => m.SegmentPageModule)
   },
@@ -123,7 +127,6 @@ const routes: Routes = [
     path: 'componentes-visuais',
     loadChildren: () => import('./pages/componentes-visuais/componentes-visuais.module').then( m => m.ComponentesVisuaisPageModule)
   }
-
 ];
 
 @NgModule({
