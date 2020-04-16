@@ -76,6 +76,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/componentes-visuais/list/list.module').then( m => m.ListPageModule)
   },
   {
+    path: 'modal',
+    loadChildren: () => import('./pages/componentes-visuais/modal/modal.module').then( m => m.ModalPageModule)
+  },
+  {
     path: 'progressbar',
     loadChildren: () => import('./pages/componentes-visuais/progressbar/progressbar.module').then( m => m.ProgressbarPageModule)
   },

@@ -88,6 +88,11 @@ export class ComponentesVisuaisPage implements OnInit {
         icon: 'construct'
       },
       {
+        title: 'Modal',
+        url: 'modal',
+        icon: 'construct'
+      },
+      {
         title: 'Progress Bar',
         url: 'progressbar',
         icon: 'construct'
